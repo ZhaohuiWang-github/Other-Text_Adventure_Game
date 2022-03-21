@@ -1,0 +1,44 @@
+game_name: Adventure 1
+game_goal: Find the magic helmet and bring it to Hans.
+game_goalloc: 8
+game_goalobj: helmet
+game_start: 4
+game_xsize: 3
+game_ysize: 3
+---
+r_id:1
+r_desc: standing next to a lake. The water is murky.
+r_obj: cart
+---
+r_id:2
+r_desc: in a forest. Lars the hunter is here.
+---
+r_id:3
+r_desc: in a very dense forest
+---
+r_id:4
+r_desc: on a path
+---
+r_id:5
+r_desc: in an open field.  It looks like there was a battle here a long time ago.
+r_hiddenobj: helmet
+r_south: 2
+---
+r_id:6
+r_desc: at the foot of a mountain
+---
+r_id:7
+r_desc: inside a general store.
+r_obj: milk
+r_hiddenobj: cookies
+r_east: 9
+---
+r_id:8
+r_desc: inside a secret house. Hans is here.
+---
+r_id:9
+r_desc: in a pit!  You must have accidently fallen into it.
+r_south: 9
+r_east: 9
+r_west: 9
+r_hiddenpath: 8
